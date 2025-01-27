@@ -56,7 +56,9 @@ app = Client(
     api_id = API_ID,
     api_hash = API_HASH,
     session_string = STRING_SESSION,
+    timeout= 60,  # Increase timeout duration
 )
+
 
 ass = Client(
     name = "BRANDEDKING82",
