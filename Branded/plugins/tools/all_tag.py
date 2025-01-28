@@ -55,7 +55,7 @@ async def tag_all_users(_, message):
             if usernum == 1:
                 await app.send_message(
                     message.chat.id,
-                    f"{text}\n{usertxt}\n\n|| ➥ Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ ʙʏ » @BRANDED_PAID_CC ||",
+                    f"{text}\n{usertxt}\n\n|| ➥ Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ ʙʏ » @ur_karma_baby ||",
                 )
                 await asyncio.sleep(2)
                 usernum = 0
